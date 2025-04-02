@@ -1,0 +1,28 @@
+/* Establece el fondo y el espaciado del footer */
+#footer {
+    background-color: #fff;
+    padding: 2rem 5rem;
+    color: #000; /* Texto en negro */
+  }
+  
+  /* Contenedor principal que utiliza Flexbox */
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente al centro */
+  }
+  
+  /* Estilos para el contenedor de texto */
+  .footer-text p{
+    color: #666; 
+    flex: 1;
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  /* Estilos para el contenedor de la imagen */
+  .footer-image img {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
