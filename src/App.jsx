@@ -11,6 +11,7 @@ import Crea from "./Componentes/Crear/Crea"; // Importar el componente de creaci
 import Tipografia from "./Componentes/Tipo/tipo";
 import PaletaColores from "./Componentes/Paleta/Paleta";
 import HUD from "./Componentes/Hud/hud";
+import VideoSection from "./Componentes/Video/video";
 
 const App = () => {
   const [loginModalVisible, setLoginModalVisible] = useState(false); // Para el modal de Login
@@ -54,11 +55,13 @@ const App = () => {
           {/* Ruta para el proyecto */}
           <Route path="/proyecto" element={<>
             <Header setLoginModalVisible={setLoginModalVisible} handleModalOpen={handleModalOpen} />
+            
             <Novedades handleModalOpen={handleModalOpen} />
             <Personajes handleModalOpen={handleModalOpen} />
             <Tipografia />
             <PaletaColores />
             <HUD />
+            <VideoSection/>
             <Footer />
           </>} />
         </Routes>

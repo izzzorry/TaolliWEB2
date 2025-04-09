@@ -83,8 +83,8 @@ html{
 
 
 .box img {
- height: 6rem;
- width: 6rem;
+ height: 25rem;
+ width: 25rem;
  line-height: 6rem;
  transition: .2s;
 }
@@ -149,6 +149,7 @@ html{
 .about {
     background: var(--arenablanca);
     padding-bottom: 2rem;
+    padding-top: 3.5rem;
 }
 
 .project-content {
